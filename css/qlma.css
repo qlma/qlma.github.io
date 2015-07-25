@@ -1,0 +1,11 @@
+div.odd {
+    background-color: darkseagreen;
+}
+div.even {
+    background-color: #ffffff;
+}
+
+div.odd, div.even {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
