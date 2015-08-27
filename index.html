@@ -1,91 +1,336 @@
-<html lang="fi">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+
     <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>Qlma</title>
+    <title>QLMA - opetajien, huoltajien ja oppilaiden viestintään</title>
 
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/qlma.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-    <!-- NAVBAR -->
-    <div class="navbar navbar-static-top navbar-inverse" role="navigation">
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#alku" >
-                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Qlma
-                </a>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/qlma.png" width="200"></a>
             </div>
-            <div class="navbar-left hidden-xs">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#eka" title="Eka">
-                            Lorem
-                        </a>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a href="#toka" >
-                            Mauris
-                        </a>
+                        <a class="page-scroll" href="#services">Miksi</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Mitä</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Miten</a>
+                    </li>
+
                 </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </div>
-    <!-- jumbotron -->
-    <div class="jumbotron category" id="alku" role="main">
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Koulun ja kodin välinen viestintä kaipaa parempia palveluita</div>
+                <div class="intro-heading">JOTEN ME TEEMME SELLAISEN</div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
         <div class="container">
             <div class="row">
-                <div class="col-xs-1 col-xs-offset-4 col-sm-offset-5"><img src="image/q.png" width="100" height="100"></div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">JOS JOKU TEKISI JOSSAIN JOTAKIN</h2>
+                    <h3 class="section-subheading text-muted">Huono käytettävyys ja vanhanaikaiset ratkaisut alkavat riitää.</h3>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <h1>Qlma</h1>
-                    <p>
-                        Duis vel venenatis ipsum, in dictum augue.
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-thumbs-down fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Yleinen tyytymättömyys</h4>
+                    <p class="text-muted">Käyttäjät ei ole tyytyväisiä tarjolla oleviin ratkaisuihin. Ne koetaan vanhoiksi, kankeiksi ja
+                    hankalasti käytettäviksi.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Mobiilikäytettävyys</h4>
+                    <p class="text-muted">
+
+                    Yhä useampi haluaisi hoitaa kaiken viestinnän älypuhelimen avulla. Nykyiset palvelut vaativat vielä isoilta osin
+                    pöytätietokonetta, jota kaikilla ei ole.
+
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Eletään vuotta 2015</h4>
+                    <p class="text-muted">
+                    Tottumukset, vaatimukset ja odotukset ovat korkeammalla. Haluamme että viestintä on yhtä helppoa kuin
+                    nykyisten some-palveluiden hyödyntäminen.
                     </p>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- /jumbotron -->
+    </section>
 
-    <!-- -->
-    <div class="row odd">
+    <!-- Features Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
         <div class="container">
-            <div class="col-md-8 col-md-offset-2" id="eka">
-                <div class="col-sm-4">
-                    <h3>Lorem</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Mitä sitten teemme?</h2>
+                    <h3 class="section-subheading text-muted">Luonteva tapa yhdistää opettajat, huoltajat ja oppilaat.</h3>
                 </div>
-                <div class="col-sm-4">
-                    <h3>Maecenas</h3>
-                    <p>Maecenas iaculis sapien ac suscipit faucibus. Nunc euismod facilisis gravida. Curabitur luctus rhoncus bibendum.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+
+
+
+
+                    <div class="portfolio-caption">
+                        <h4>Viestintä</h4>
+                        <p class="text-muted">Tehostamme viestin perillemenoa.</p>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <h3>Maecenas</h3>
-                    <p>Maecenas iaculis sapien ac suscipit faucibus. Nunc euismod facilisis gravida. Curabitur luctus rhoncus bibendum.</p>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+
+
+
+
+                    <div class="portfolio-caption">
+                        <h4>Dialogi</h4>
+                        <p class="text-muted">Helpotamme keskusteluyhteyttä.</p>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <h3>Morbi</h3>
-                    <p>Morbi auctor quis tellus vitae aliquam. In nec quam purus. Integer non lacinia lectus, non gravida urna</p>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+
+
+
+
+                    <div class="portfolio-caption">
+                        <h4>Tiedottaminen</h4>
+                        <p class="text-muted">Yksinkertaistamme tiedottamista.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+
+
+
+
+                    <div class="portfolio-caption">
+                        <h4>Käytettävyys</h4>
+                        <p class="text-muted">Rakennamme nykyistä paremman.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+
+
+
+
+                    <div class="portfolio-caption">
+                        <h4>Nykyaikaisuus</h4>
+                        <p class="text-muted">Palvelu joka kestää aikaa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+
+
+
+
+                    <div class="portfolio-caption">
+                        <h4>Avoimuus</h4>
+                        <p class="text-muted">Avoin lähdekoodi käyttöösi.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="row even">
+
+
+
+
+
+
+
+
+    <section id="team">
         <div class="container">
-            <div class="col-md-8 col-md-offset-2" id="toka">
-                <h2>Maecenas mauris</h2>
-                <p>
-                    Nulla facilisi. Cras placerat velit quis sem faucibus, eu aliquam velit congue. Donec convallis tempor porta. Mauris erat libero, commodo ac dignissim non, auctor ut lacus. Maecenas mauris nisl, accumsan pulvinar malesuada eget, malesuada ac nisl. Vestibulum scelerisque dolor a metus aliquet, at porta urna suscipit. Proin nec lorem imperdiet, imperdiet leo at, elementum enim. Quisque imperdiet tempus velit, volutpat congue urna sollicitudin interdum. Phasellus commodo velit at felis bibendum finibus. Vivamus ac posuere urna.
-                </p>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">JOUKKOISTAMALLA KAIKKI MAHDOLLINEN</h2>
+                    <h3 class="section-subheading"><font color="#FFFFFF">Haluamme satatuhatta ihmistä osallistumaan ja vaikuttamaan.</font></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center text-white">
+                <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4>KYSELYT</h4>
+
+                    Annamme mahdollisuuden jokaiselle vaikuttaa siihen, mitä QLMA pitää sisällään.
+                    <br><br>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center text-white">
+                <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4>KEHITYS</h4>
+
+                    Koko kehitys tapahtuu täysin avoimesta verkossa, kaikkien silmien alla.
+                    <br><br>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center text-white">
+                <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4>KOMMENTIT</h4>
+
+                  Keräämme jokaisesta versiosta kommentit ja parannamme niiden pohjalta toteutusta.
+                    <br><br>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center text-white">
+                <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4>KOKONAISUUS</h4>
+
+                    Keskitymme tekemään eheän kokonaisuuden jota on helppo ja mukava käyttää.
+                    <br><br>
+                </div>
+
+
+
             </div>
         </div>
-    </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">HALUATKO MUKAAN RAKENTAMAAN SUOMEN HIENOINTA HANKETTA?</h2>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center text-white">
+
+                <div class="nowide">
+                    Kaikki apu on tarpeen, sillä teemme hanketta täysin vapaaehtoisesti. Jokainen käytetty työtunti on poissa
+                    meidän jokaisen vapaa-ajasta, mutta haluamme uskoa että se kannattaa. Kun yhdessä rakennamme jotain uudenlaista,
+                    käyttäjien kanssa aidosti tehtyä palvelua, haluamme todistaa että vain tekemällä voimme saada aikaan muutoksen.
+                    <br><br>
+                    <h3>
+                    <a href="https://github.com/qlma">GitHub</a> &amp; <a href="https://twitter.com/qlmakoulu">Twitter</a>
+                    </h3>
+                    <br><br>
+
+                    QLMAa tekemässä mm. @iiuusit @JanneGylling @upcloud  @katleena @SolitaOy
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+            </div>
+                <div class="col-md-12">
+                    <span class="copyright">Copyright &copy; QLMA Koulu 2015 -
+                Seuraa meitä Twitterissä <a href="https://twitter.com/qlmakoulu">@QlmaKoulu <i class="fa fa-twitter"></i></a>
+                <br>
+
+                       With <i class="fa fa-heart"></i> from Sastamala</span>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
 </body>
+
 </html>
