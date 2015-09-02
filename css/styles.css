@@ -80,8 +80,8 @@ h6 {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-	
-	
+
+
 }
 
 .bg-darkest-gray {
@@ -264,7 +264,7 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
-		
+
     }
 
     .navbar-default .navbar-brand {
@@ -293,7 +293,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default .nav li a {
         color: #20bba6;
     }
-    
+
     .navbar-default .nav li a:hover,
     .navbar-default .nav li a:focus {
         outline: 0;
@@ -381,6 +381,13 @@ section h2.section-heading {
     margin-bottom: 15px;
     font-size: 40px;
 }
+
+@media(max-width: 470px) {
+    section h2.section-heading {
+        font-size: 33px;
+    }
+}
+
 
 section h3.section-subheading {
     margin-bottom: 75px;
