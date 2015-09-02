@@ -80,8 +80,6 @@ h6 {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-
-
 }
 
 .bg-darkest-gray {
@@ -264,7 +262,6 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
-
     }
 
     .navbar-default .navbar-brand {
