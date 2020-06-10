@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>QLMA - ja menee viesti perille - by Qlma ry</title>
+    <title data-translate="title"></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -57,15 +57,14 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Miksi</a>
+                        <a href="#" onclick="setLang(0);">Finnish</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Mitä</a>
+                        <a href="#" onclick="setLang(1);">English</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Miten</a>
+                        <a href="#" onclick="setLang(2);">German</a>
                     </li>
-
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -77,9 +76,23 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Koulun ja kodin välinen viestintä kaipaa parempia palveluita</div>
-                <div class="intro-heading">JOTEN ME TEEMME SELLAISEN</div>
-
+                <div class="intro-lead-in" data-translate="lead-in"></div>
+                <div class="intro-heading" data-translate="heading"></div>
+                <!--
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="page-scroll" href="#services">Miksi</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#portfolio">Mitä</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#team">Miten</a>
+                        </li>
+                    </ul>
+                </div>
+                -->
             </div>
         </div>
     </header>
@@ -89,8 +102,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">JOS JOKU TEKISI JOSSAIN JOTAKIN</h2>
-                    <h3 class="section-subheading text-muted">Huono käytettävyys ja vanhanaikaiset ratkaisut alkavat riittää.</h3>
+                    <h2 class="section-heading" data-translate="services-section-heading"></h2>
+                    <h3 class="section-subheading text-muted" data-translate="services-section-subheading"></h3>
                 </div>
             </div>
             <div class="row text-center">
@@ -99,33 +112,24 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-thumbs-down fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Yleinen tyytymättömyys</h4>
-                    <p class="text-muted">Käyttäjät eivät ole tyytyväisiä tarjolla oleviin ratkaisuihin. Ne koetaan vanhoiksi, kankeiksi ja
-                    hankalasti käytettäviksi.</p>
+                    <h4 class="service-heading" data-translate="services-service-heading_1"></h4>
+                    <p class="text-muted" data-translate="services-p_1"></p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Mobiilikäytettävyys</h4>
-                    <p class="text-muted">
-
-                    Yhä useampi haluaisi hoitaa kaiken viestinnän älypuhelimen avulla. Nykyiset palvelut vaativat vielä isoilta osin
-                    pöytätietokonetta, jota kaikilla ei ole.
-
-                    </p>
+                    <h4 class="service-heading" data-translate="services-service-heading_2"></h4>
+                    <p class="text-muted" data-translate="services-p_2"></p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Eletään vuotta 2017</h4>
-                    <p class="text-muted">
-                    Tottumukset, vaatimukset ja odotukset ovat korkeammalla. Haluamme että viestintä on yhtä helppoa kuin
-                    nykyisten some-palveluiden hyödyntäminen.
-                    </p>
+                    <h4 class="service-heading" data-translate="services-service-heading_3"></h4>
+                    <p class="text-muted" data-translate="services-p_3"></p>
                 </div>
             </div>
         </div>
@@ -136,137 +140,99 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Mitä sitten teemme?</h2>
-                    <h3 class="section-subheading text-muted">Luonteva tapa yhdistää opettajat, huoltajat ja oppilaat.</h3>
+                    <h2 data-translate="portfolio-section-heading" class="section-heading"></h2>
+                    <h3 data-translate="portfolio-section-subheading" class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-
-
-
-
                     <div class="portfolio-caption">
-                        <h4>Viestintä</h4>
-                        <p class="text-muted">Tehostamme viestin perillemenoa.</p>
+                        <h4 data-translate="portfolio-h4_1"></h4>
+                        <p data-translate="portfolio-p_1" class="text-muted"></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-
-
-
-
                     <div class="portfolio-caption">
-                        <h4>Dialogi</h4>
-                        <p class="text-muted">Helpotamme keskusteluyhteyttä.</p>
+                        <h4 data-translate="portfolio-h4_2"></h4>
+                        <p data-translate="portfolio-p_2" class="text-muted"></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-
-
-
-
                     <div class="portfolio-caption">
-                        <h4>Tiedottaminen</h4>
-                        <p class="text-muted">Yksinkertaistamme tiedottamista.</p>
+                        <h4 data-translate="portfolio-h4_3"></h4>
+                        <p data-translate="portfolio-p_3" class="text-muted"></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-
-
-
-
                     <div class="portfolio-caption">
-                        <h4>Käytettävyys</h4>
-                        <p class="text-muted">Rakennamme nykyistä paremman.</p>
+                        <h4 data-translate="portfolio-h4_4"></h4>
+                        <p data-translate="portfolio-p_4" class="text-muted"></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-
-
-
-
                     <div class="portfolio-caption">
-                        <h4>Nykyaikaisuus</h4>
-                        <p class="text-muted">Palvelu joka kestää aikaa.</p>
+                        <h4 data-translate="portfolio-h4_5"></h4>
+                        <p data-translate="portfolio-p_5" class="text-muted"></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-
-
-
-
                     <div class="portfolio-caption">
-                        <h4>Avoimuus</h4>
-                        <p class="text-muted">Avoin lähdekoodi käyttöösi.</p>
+                        <h4 data-translate="portfolio-h4_6"></h4>
+                        <p data-translate="portfolio-p_6" class="text-muted"></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-
-
-
-
-
-
-
     <section id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">JOUKKOISTAMALLA KAIKKI MAHDOLLINEN</h2>
-                    <h3 class="section-subheading"><font color="#FFFFFF">Haluamme satatuhatta ihmistä osallistumaan ja vaikuttamaan.</font></h3>
+                    <h2 data-translate="team-heading" class="section-heading"></h2>
+                    <h3 data-translate="team-subheading" class="section-subheading"></h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center text-white">
-                <span class="fa-stack fa-4x">
+                    <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4>KYSELYT</h4>
-
-                    Annamme mahdollisuuden jokaiselle vaikuttaa siihen, mitä QLMA pitää sisällään.
+                    <h4 data-translate="team-h4_1"></h4>
+                    <p data-translate="team-p_1"></p>
                     <br><br>
                 </div>
 
                 <div class="col-lg-3 col-md-6 text-center text-white">
-                <span class="fa-stack fa-4x">
+                    <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4>KEHITYS</h4>
-
-                    Koko kehitys tapahtuu täysin avoimesti verkossa, kaikkien silmien alla.
+                    <h4 data-translate="team-h4_2"></h4>
+                    <p data-translate="team-p_2"></p>
                     <br><br>
                 </div>
 
                 <div class="col-lg-3 col-md-6 text-center text-white">
-                <span class="fa-stack fa-4x">
+                    <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-users fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4>KOMMENTIT</h4>
-
-                  Keräämme jokaisesta versiosta kommentit ja parannamme niiden pohjalta toteutusta.
+                    <h4 data-translate="team-h4_3"></h4>
+                    <p data-translate="team-p_3"></p>
                     <br><br>
                 </div>
 
                 <div class="col-lg-3 col-md-6 text-center text-white">
-                <span class="fa-stack fa-4x">
+                    <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
                     </span>
-                <h4>KOKONAISUUS</h4>
-
-                    Keskitymme tekemään eheän kokonaisuuden jota on helppo ja mukava käyttää.
+                    <h4 data-translate="team-h4_4"></h4>
+                    <p data-translate="team-p_4"></p>
                     <br><br>
                 </div>
-
-
 
             </div>
         </div>
@@ -275,28 +241,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">HALUATKO MUKAAN RAKENTAMAAN SUOMEN HIENOINTA HANKETTA?</h2>
-
+                    <h2 data-translate="contact-h2" class="section-heading"></h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center text-white">
 
-                <div class="nowide">
-                    Kaikki apu on tarpeen, sillä teemme hanketta täysin vapaaehtoisesti. Jokainen käytetty työtunti on poissa
-                    meidän jokaisen vapaa-ajasta, mutta haluamme uskoa että se kannattaa. Kun yhdessä rakennamme jotain uudenlaista,
-                    käyttäjien kanssa aidosti tehtyä palvelua, haluamme todistaa että vain tekemällä voimme saada aikaan muutoksen.
-                    <br><br>
-                    <h3>
-                        <a href="https://github.com/qlma">GitHub</a> &amp; 
-                        <a href="https://twitter.com/qlmakoulu">Twitter</a> &amp; 
-                        <a href="https://qlma-slackin.herokuapp.com/">Slack</a> &amp; 
-                        <a href="https://www.facebook.com/pages/Qlma/894865867247255">Facebook</a> &amp; 
-                        <a href="http://newsroom.qlma.fi/">Newsroom</a>
-                    </h3>
-                    <br><br>
+                    <div class="nowide">
+                        <p data-translate="contact-text"></p>
+                        <br><br>
+                        <h3>
+                            <a href="https://github.com/qlma">GitHub</a> &amp; 
+                            <a href="https://twitter.com/qlmakoulu">Twitter</a> &amp; 
+                            <!--<a href="https://qlma-slackin.herokuapp.com/">Slack</a> &amp; -->
+                            <a href="https://www.facebook.com/pages/Qlma/894865867247255">Facebook</a>
+                            <!--<a href="http://newsroom.qlma.fi/">Newsroom</a>-->
+                        </h3>
+                        <br><br>
 
-                    QLMAa tekemässä mm. @iiuusit @JanneGylling @katleena - tukemassa: @upcloud @SolitaOy
+                        <p data-translate="contact-support"></p>
 
                     </div>
                 </div>
@@ -308,18 +271,17 @@
             <div class="row">
             </div>
                 <div class="col-md-12">
-                    <span class="copyright">Copyright &copy; QLMA ry-
-                Seuraa meitä Twitterissä <a href="https://twitter.com/qlmakoulu">@QlmaKoulu <i class="fa fa-twitter"></i></a>
-                <br>
-
-                       With <i class="fa fa-heart"></i> from Sastamala</span>
-
+                    <span data-translate="contact-copyright" class="copyright"></span>
                 </div>
             </div>
         </div>
     </footer>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+
+    <!-- Translations -->
+    <script src="js/translations.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
