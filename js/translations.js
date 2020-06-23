@@ -2,17 +2,17 @@ var dictionary = {
     'title': {
         'fi': 'QLMA - ja menee viesti perille',
         'en': 'QLMA - and the message gets delivered',
-        'de': 'QLMA - und die Nachricht geht',
+        'de': 'QLMA - und die Nachricht kommt an',
     },
     'lead-in': {
         'fi': 'Koulun ja kodin välinen viestintä kaipaa parempia palveluita',
         'en': 'Communication between school and home requires better services',
-        'de': 'Die Kommunikation zwischen Schule und Zuhause erfordert bessere Dienstleistungen',
+        'de': 'Für die Kommunikation zwischen Schule und Zuhause sind bessere Dienste erforderlich',
     },
     'heading': {
         'fi': 'TEHDÄÄN SELLAINEN',
         'en': "LET'S DEVELOP IT",
-        'de': 'LASS UNS DAS MACHEN',
+        'de': 'LASST UNS DAS ENTWICKELN',
     },
     'services-section-heading': {
         'fi': 'MITÄ TULISI PARANTAA',
@@ -22,7 +22,7 @@ var dictionary = {
     'services-section-subheading': {
         'fi': 'Huono käytettävyys ja vanhanaikaiset ratkaisut alkavat riittää.',
         'en': 'Poor usability and old-fashioned solutions are starting to suffice.',
-        'de': 'Schlechte Benutzerfreundlichkeit und altmodische Lösungen beginnen zu genügen.',
+        'de': 'Schlechte Benutzerfreundlichkeit und veraltete Lösungen gibt es genügend.',
     },
     'services-service-heading_1': {
         'fi': 'Yleinen tyytymättömyys',
@@ -32,7 +32,7 @@ var dictionary = {
     'services-p_1': {
         'fi': 'Käyttäjät eivät ole tyytyväisiä tarjolla oleviin ratkaisuihin. Ne koetaan vanhoiksi, kankeiksi ja hankalasti käytettäviksi.',
         'en': 'Users are not satisfied with the solutions available. They are perceived as old, stiff and difficult to use.',
-        'de': 'Benutzer sind mit den verfügbaren Lösungen nicht zufrieden. Sie werden als alt, steif und schwer zu bedienen empfunden.',
+        'de': 'Die Nutzer sind mit den verfügbaren Lösungen nicht zufrieden. Sie werden als alt, steif und schwer zu bedienen empfunden.',
     },
     'services-service-heading_2': {
         'fi': 'Mobiilikäytettävyys',
@@ -52,17 +52,17 @@ var dictionary = {
     'services-p_3': {
         'fi': 'Tottumukset, vaatimukset ja odotukset ovat korkeammalla. Haluamme että viestintä on yhtä helppoa kuin nykyisten some-palveluiden hyödyntäminen.',
         'en': 'Habits, demands and expectations are higher. We want communication to be as easy as leveraging existing some services.',
-        'de': 'Gewohnheiten, Anforderungen und Erwartungen sind höher. Wir möchten, dass die Kommunikation so einfach ist wie die Nutzung vorhandener Dienste.',
+        'de': 'Die Gewohnheiten, Anforderungen und Erwartungen sind höher. Wir möchten, dass die Kommunikation so einfach ist wie die Nutzung bereits vorhandener Dienste.',
     },
     'portfolio-section-heading': {
         'fi': 'Mitä sitten teemme?',
         'en': 'So what do we do?',
-        'de': 'Also, was machen wir?',
+        'de': 'Was sollen wir dann tun?',
     },
     'portfolio-section-subheading': {
         'fi': 'Luonteva tapa yhdistää opettajat, huoltajat ja oppilaat.',
         'en': 'A natural way to connect teachers, parents and students.',
-        'de': 'Ein natürlicher Weg, um Lehrer, Erziehungsberechtigte und Schüler zu verbinden.',
+        'de': 'Ein natürlicher Weg, um Lehrer, Erziehungsberechtigte und Schüler miteinander in Verbindung zu bringen.',
     },
     'portfolio-h4_1': {
         'fi': 'Viestintä',
@@ -72,7 +72,7 @@ var dictionary = {
     'portfolio-p_1': {
         'fi': 'Tehostamme viestin perillemenoa.',
         'en': 'We improve the message delivery.',
-        'de': 'Wir verbessern die Kanäle.',
+        'de': 'Wir verbessern die Kommunikationswege.',
     },
     'portfolio-h4_2': {
         'fi': 'Dialogi',
@@ -82,7 +82,7 @@ var dictionary = {
     'portfolio-p_2': {
         'fi': 'Helpotamme keskusteluyhteyttä.',
         'en': 'We make the conversation easier.',
-        'de': 'Wir erleichtern das Gespräch.',
+        'de': 'Wir fördern das Gespräch.',
     },
     'portfolio-h4_3': {
         'fi': 'Tiedottaminen',
@@ -102,7 +102,7 @@ var dictionary = {
     'portfolio-p_4': {
         'fi': 'Rakennamme nykyistä paremman.',
         'en': 'We are building better.',
-        'de': 'Wir bauen besser.',
+        'de': 'Wir bauen etwas Besseres auf.',
     },
     'portfolio-h4_5': {
         'fi': 'Nykyaikaisuus',
@@ -112,7 +112,7 @@ var dictionary = {
     'portfolio-p_5': {
         'fi': 'Palvelu joka kestää aikaa.',
         'en': 'A service that lasts time.',
-        'de': 'Ein Service, der lange dauert.',
+        'de': 'Ein nachhaltiger Dienst.',
     },
     'portfolio-h4_6': {
         'fi': 'Avoimuus',
@@ -142,7 +142,7 @@ var dictionary = {
     'team-p_1': {
         'fi': 'Annamme mahdollisuuden jokaiselle vaikuttaa siihen, mitä QLMA pitää sisällään.',
         'en': 'We give everyone a chance to influence what QLMA contains.',
-        'de': 'Wir geben jedem die Möglichkeit zu beeinflussen, was QLMA enthält.',
+        'de': 'Wir geben jedem die Möglichkeit, die Inhalte von QLMA mit zu entwickeln.',
     },
     'team-h4_2': {
         'fi': 'KEHITYS',
@@ -152,7 +152,7 @@ var dictionary = {
     'team-p_2': {
         'fi': 'Koko kehitys tapahtuu täysin avoimesti verkossa, kaikkien silmien alla.',
         'en': 'All development takes place completely openly online, under everyone’s eyes.',
-        'de': 'Alle Entwicklungen finden völlig offen online statt, unter jedermanns Augen.',
+        'de': 'Alle Entwicklungen finden komplett offen online und für jeden ersichtlich statt.',
     },
     'team-h4_3': {
         'fi': 'KOMMENTIT',
@@ -162,12 +162,12 @@ var dictionary = {
     'team-p_3': {
         'fi': 'Keräämme jokaisesta versiosta kommentit ja parannamme niiden pohjalta toteutusta.',
         'en': 'We will collect comments on each version and improve implementation based on them.',
-        'de': 'Wir werden Kommentare zu jeder Version sammeln und die Implementierung basierend darauf verbessern.',
+        'de': 'Wir werden Kommentare aus jeder Version sammeln und die Implementierung darauf basierend verbessern.',
     },
     'team-h4_4': {
         'fi': 'KOKONAISUUS',
         'en': 'Ensemble',
-        'de': 'Ensemble',
+        'de': 'Gesamteindruck',
     },
     'team-p_4': {
         'fi': 'Keskitymme tekemään eheän kokonaisuuden jota on helppo ja mukava käyttää.',
@@ -177,12 +177,12 @@ var dictionary = {
     'contact-h2': {
         'fi': 'HALUATKO MUKAAN RAKENTAMAAN KOULUMAAILMAN HIENOINTA HANKETTA?',
         'en': 'DO YOU WANT TO PARTICIPATE THE FINEST PROJECT IN THE SCHOOL WORLD?',
-        'de': 'MÖCHTEN SIE DAS BESTE PROJEKT DER SCHULWELT BAUEN?',
+        'de': 'MÖCHTEN SIE AM BESTEN SCHULISCHEN PROJEKT MITARBEITEN?',
     },
     'contact-text': {
         'fi': 'Kaikki apu on tarpeen, sillä teemme hanketta täysin vapaaehtoisesti. Jokainen käytetty työtunti on poissa meidän jokaisen vapaa-ajasta, mutta haluamme uskoa että se kannattaa. Kun yhdessä rakennamme jotain uudenlaista, käyttäjien kanssa aidosti tehtyä palvelua, haluamme todistaa että vain tekemällä voimme saada aikaan muutoksen.',
         'en': 'All help is needed as we do the project completely voluntarily. Every hour spent is out of our every free time, but we want to believe it’s worth it. When together we build something new, a service that is truly done with users, we want to prove that only by doing can we bring about change.',
-        'de': 'Alle Hilfe wird benötigt, da wir das Projekt völlig freiwillig durchführen. Jede verbrachte Stunde gehört zu unserer Freizeit, aber wir möchten glauben, dass es sich lohnt. Wenn wir gemeinsam etwas Neues aufbauen, einen Service, der wirklich mit Benutzern gemacht wird, wollen wir beweisen, dass wir nur dadurch Veränderungen bewirken können.',
+        'de': 'Jede Hilfe wird benötigt, da wir das Projekt auf komplett freiwilliger Basis durchführen. Jede geleistete Arbeitsstunde geht von unserer Freizeit ab. Dennoch möchten wir glauben, dass sich der Einsatz lohnt. Wenn wir gemeinsam etwas Neues aufbauen, einen Service, der tatsächlich zusammen mit Nutzern entwickelt wird, wollen wir beweisen, dass wir mit Taten Veränderungen bewirken können.',
     },
     'contact-support': {
         'fi': 'QLMAa tekemässä mm. @iiuusit @awsfanboy @JanneGylling @katleena - tukemassa: @upcloud @SolitaOy',
